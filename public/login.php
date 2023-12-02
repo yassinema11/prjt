@@ -1,11 +1,10 @@
-<?php 
+<?php
 session_start();
 
 include("./include/db.php");
 
 // Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST")
-{
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve data from the form
     $email = $_POST["Email"];
     $password = $_POST["Password"];
@@ -16,11 +15,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $stmt->execute();
     $result = $stmt->get_result();
 
-    if ($result->num_rows > 0) 
-    {
+    if ($result->num_rows > 0) {
         // Correct data
         echo "Login successful.";
-        
+
         // Start a session
         session_start();
 
@@ -35,19 +33,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         // Redirect to the dashboard
         header("Location: dash.php");
         exit();
-    } 
-    else 
-    {
+    } else {
         // Incorrect data
         echo "<script>alert('Invalid email or password.!')</script>";
     }
 
-    if ($email === "admin@tuniliv.com" && $password === "123456789") 
-    {
-      // Admin login successful, redirect to the admin dashboard
-      header("Location: admin.php");
-      exit();
-  }
+    if ($email === "admin@gmail.com" && $password === "12345") {
+        // Admin login successful, redirect to the admin dashboard
+        header("Location: admin.php");
+        exit();
+    }
 
     // Close the prepared statement
     $stmt->close();

@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index.php"> Accueil </a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#services">Nos Services</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="./services">Nos Services</a></li>
               <li class="nav-item px-2"><a class="nav-link" href="./register.php"> Inscrire </a></li>
               <li class="nav-item px-2"><a class="nav-link" href="./login.php"> Se Connecter </a></li>
 
@@ -113,8 +113,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-8 col-lg-5 text-center mb-3">
-              <h5 class="text-danger">SERVICES</h5>
-              <h2>Our services for you</h2>
+              <h5 class="text-danger">Bienvenue sur notre site de services à domicile</h5>
+              <h2>Choisissez parmi nos services</h2>
             </div>
           </div>
           <div class="row h-100 justify-content-center">
@@ -122,12 +122,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               <div class="card h-100 px-lg-5 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
                   <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-1.svg" alt="..." />
-                    <h5 class="my-4">Business Services</h5>
+                    <h5 class="my-4">Ménage et Nettoyage</h5>
                   </div>
                   
                   <div class="text-center my-5">
                     <div class="d-grid">
-                      <button class="btn btn-outline-danger" type="submit">Learn more </button>
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
                     </div>
                   </div>
                 </div>
@@ -137,12 +137,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               <div class="card h-100 px-lg-5 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
                   <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-2.svg" alt="..." />
-                    <h5 class="my-4">Statewide Services</h5>
+                    <h5 class="my-4">Plomberie</h5>
                   </div>
                   
                   <div class="text-center my-5">
                     <div class="d-grid">
-                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit">Learn more</button>
+                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit">Voir</button>
                     </div>
                   </div>
                 </div>
@@ -152,12 +152,110 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               <div class="card h-100 px-lg-5 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
                   <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-3.svg" alt="..." />
-                    <h5 class="my-4">Personal Services</h5>
+                    <h5 class="my-4">Jardinage</h5>
                   </div>
                   
                   <div class="text-center my-5">
                     <div class="d-grid">
-                      <button class="btn btn-outline-danger" type="submit">Learn more </button>
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="row h-100 justify-content-center">
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-1.svg" alt="..." />
+                    <h5 class="my-4">Électricité</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-2.svg" alt="..." />
+                    <h5 class="my-4">Services de Livraison à Domicile</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit">Voir</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-3.svg" alt="..." />
+                    <h5 class="my-4">Services Informatiques à Domicile</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+        <div class="row h-100 justify-content-center">
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-1.svg" alt="..." />
+                    <h5 class="my-4">Coiffure et Esthétique à Domicile</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-2.svg" alt="..." />
+                    <h5 class="my-4">Cours et Tutorat à Domicile</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit">Voir</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-100 px-lg-5 card-span">
+                <div class="card-body d-flex flex-column justify-content-around">
+                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-3.svg" alt="..." />
+                    <h5 class="my-4">Assistance Personnelle</h5>
+                  </div>
+                  
+                  <div class="text-center my-5">
+                    <div class="d-grid">
+                      <button class="btn btn-outline-danger" type="submit">Voir </button>
                     </div>
                   </div>
                 </div>
@@ -165,6 +263,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             </div>
           </div>
         </div>
+      </div>
+
+</div>
         <!-- end of .container-->
 
       </section>
